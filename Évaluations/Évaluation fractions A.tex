@@ -1,0 +1,139 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\tcbuselibrary{skins}
+%\pagestyle{empty}
+
+% ---- En-tête Nom / Groupe ----
+\newcommand{\entete}{%
+  \noindent Nom: \rule{6.5cm}{0.4pt} \hfill Groupe: \rule{3cm}{0.4pt}\\[4mm]
+}
+
+% ---- Boîte "Cible" avec titre en gras dans la boîte ----
+\newtcolorbox{cible}[1]{
+  colback=white, colframe=black, boxrule=0.6pt, arc=0pt,
+  left=4mm, right=4mm, top=2mm, bottom=2mm,
+  fonttitle=\bfseries, coltitle=black,
+  before upper={\textbf{#1}\par\smallskip}
+}
+
+% ---- Case blanche générique (pour les chaînes d'opérations) ----
+%\newcommand{\caseop}[1]{%
+%  \begin{minipage}[t][3cm][t]{\linewidth}
+%  #1
+%  \end{minipage}
+%}
+
+\begin{document}
+
+%==================== PAGE 1 ====================
+\entete
+\noindent \textbf{Évaluation: Les fractions} \hfill Chapitre 1
+\vspace{2mm}
+\hrule
+\vspace{4mm}
+
+\begin{cible}{Cible 1: Lire, écrire et représenter une fraction et un nombre fractionnaire. Rechercher une fraction équivalente.}
+
+1. Donne la fraction représentée dans chaque cas.  
+
+\vspace{2mm}
+
+\begin{tabular}{@{}p{0.5cm}p{2.3cm}p{4.3cm}p{0.5cm}p{2.3cm}p{4.3cm}@{}}
+a) & $2^3 = $ & \rule{3.2cm}{0.4pt} & b) & $4^2 = $ & \rule{3.2cm}{0.4pt} \\[4mm]
+c) & $9^0 = $ & \rule{3.2cm}{0.4pt} & d) & $8^1 = $ & \rule{3.2cm}{0.4pt} \\[4mm]
+\end{tabular}
+
+\vspace{6mm}
+
+\noindent 2. Rempli le tableau suivant : 
+
+
+\vspace{6mm}
+\noindent 3. Transforme les fractions suivantes en nombre fractionnaire.
+
+\vspace{2.5cm}
+
+
+\vspace{6mm}
+
+\noindent 4. Transforme les nombre fractionnaires en fractions.
+
+\vspace{2.5cm}
+
+\vspace{4mm}
+\end{cible}
+
+
+\newpage
+
+%==================== PAGE 2 ====================
+
+\begin{cible}{Cible 1 (suite): Lire, écrire et représenter une fraction et un nombre fractionnaire. Rechercher une fraction équivalente.}
+
+\noindent 5. Trouve la valeur manquante pour que les fractions soient équivalentes. Montre tes calculs. 
+
+\begin{cible}{Cible 2: Situer, comparer et ordonner des fractions, des pourcentages et des entiers.}
+
+\noindent 1. Place le symbole <, > ou =
+
+
+\noindent 2. Place les nombres  suivants en ordre croissant (du plus petit au plus grand): 
+
+\vspace{2mm}
+
+
+
+\newpage
+
+%==================== PAGE 3 ====================
+
+
+\begin{cible}{Cible 3: Effectuer des chaînes d'opérations.}
+
+1. Trouve le résultat de la chaine d'opérations suivante. Écris tes étapes de calcul.
+
+\vspace{1cm}
+
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{|p{7.7cm}|p{7.7cm}|}
+\hline
+\rule{0pt}{4mm} a) $6 \times (4+3) = $ & b) $7 - (-6)^2 = $ \\[8cm]
+\hline
+\rule{0pt}{4mm} c) $ (-2)^3 - 7 = $ & d) $5 \times -9 + 4 = $ \\[8cm]
+\hline
+\end{tabular}
+
+\end{cible}
+
+\newpage
+
+\begin{cible}{Cible 3: Effectuer des chaînes d'opérations.(suite)}
+
+1. Trouve le résultat de la chaine d'opérations suivante. Écris tes étapes de calcul.
+
+\vspace{1cm}
+
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{|p{7.7cm}|p{7.7cm}|}
+\hline
+\rule{0pt}{4mm} e) $5 \times 9 - 50 \div (12-2) = $ & f) $ 4 \times 6 - (-4)^3 = $ \\[8cm]
+\hline
+\rule{0pt}{4mm} g) $(-7+5)^3 \div 4 = $ & h) $(-7)^2 - 8 + 4 \div -4 = $ \\[8cm]
+\hline
+\end{tabular}
+
+\end{cible}
+
+
+\end{document}
